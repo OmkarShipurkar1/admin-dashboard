@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #faf4ed;
+}
+
 .container {
   display: grid;
-  height: 100vh;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 4fr;
   font-family: "Roboto";
@@ -41,6 +44,10 @@ ul {
 
 /* Navi Bar */
 
+.nav-bar {
+  background-color: white;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -74,7 +81,6 @@ button {
 
 .article {
   box-shadow: inset rgba(0, 0, 0, 0.224) 1px 3px 5px;
-  background-color: #faf4ed;
   display: grid;
   gap: 20px;
   grid-template-columns: 3fr 1fr;
